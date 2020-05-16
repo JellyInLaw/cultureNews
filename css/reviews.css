@@ -8,6 +8,7 @@
 
 .reviews__item {
   flex: 1;
+  text-decoration: none;
 }
 
 .reviews__item:not(:last-of-type) {
