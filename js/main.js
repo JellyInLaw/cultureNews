@@ -1,6 +1,6 @@
-let burger = document.querySelector(".header__burger");
-let headerNav = document.querySelector(".header__nav");
-let header = document.querySelector(".header");
+const burger = document.querySelector(".header__burger");
+const headerNav = document.querySelector(".header__nav");
+const header = document.querySelector(".header");
 
 burger.addEventListener("click", function () {
   burger.classList.toggle("active");

@@ -58,8 +58,13 @@
   justify-content: space-between;
 }
 
-.header__nav-item {
+.header__nav-item,
+.footer__nav-item {
   text-decoration: none;
+}
+
+.header__nav-item:hover {
+  color: #ff7931;
 }
 
 @media (max-width: 1024px) {
