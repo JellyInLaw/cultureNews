@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
     <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap&subset=cyrillic"
       rel="stylesheet"
@@ -16,120 +17,28 @@
     <title>Новости культуры</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <h1 class="header__main-title">Новости культуры</h1>
-        <nav class="main__nav">
-          <a href="#" class="main__nav-item">Новости</a>
-          <a href="#" class="main__nav-item">Обзоры</a>
-          <a href="#" class="main__nav-item">Музыка</a>
-          <a href="#" class="main__nav-item">Архитектура</a>
-          <a href="#" class="main__nav-item">Кино</a>
-          <a href="#" class="main__nav-item">Театр</a>
-          <a href="#" class="main__nav-item">Литература</a>
-          <a href="#" class="main__nav-item">Религия</a>
-          <a href="#" class="main__nav-item">Живопись</a>
-        </nav>
-      </header>
-    </div>
-
-    <div class="promo">
-      <div class="gallery-icon"></div>
-      <h2 class="promo_title">Подводный отель</h2>
-      <p class="promo-text">
-        Как известно, Дубай – город контрастов. Самые революционные и
-        фантастические мечты архитекторов способен воплотить в жизнь этот
-        мегаполис, построенный на нефти и за счет нефти
-      </p>
-    </div>
-
-    <div class="container">
-      <div class="reviews">
-        <h2 class="reviews-title block-title">Обзоры</h2>
-        <div class="reviews__items">
-          <a href="#" class="reviews__item">
-            <img src="img/item-1.jpg" alt="" class="reviews__img" />
-            <h2 class="reviews__item-title">
-              «Шальные годы» Монпарнаса
-            </h2>
-            <p class="reviews__item-text">
-              В Музее изобразительных искусств имени Пушкина с 29 сентября по 29
-              ноября проходит выставка «Шальные годы Монпарнаса»
-            </p>
-          </a>
-          <a href="#" class="reviews__item">
-            <img src="img/item-2.png" alt="" class="reviews__img" />
-            <h2 class="reviews__item-title">
-              Анатомия за 30 секунд
-            </h2>
-            <p class="reviews__item-text">
-              Сейчас, когда мир открыт нараспашку для человека и его
-              познавательных изысканий, интерес к научно‑популярной литературе
-              заметно вырос
-            </p>
-          </a>
-          <a href="#" class="reviews__item">
-            <img src="img/item-3.jpg" alt="" class="reviews__img" />
-            <h2 class="reviews__item-title">Сферические чудаки</h2>
-            <p class="reviews__item-text">
-              Корреспондентам «Культурного обозревателя» посчастливилось
-              побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды»
-            </p>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="promo-2">
-      <div class="promo-2__inner">
-        <h2 class="promo-2__title block-title">Абонементы в театр</h2>
-        <div class="promo-2__item">
-          <h2 class="promo-2__item-title">Скидка 50% на весь сезон 2020</h2>
-          <p class="promo-2__item-text">
-            Покупая абонемент на сезон 2020 года вы сэкономите половину
-            стоимости всех спектаклей
-          </p>
-        </div>
-        <div class="promo-2__item">
-          <h2 class="promo-2__item-title">Места у сцены</h2>
-          <p class="promo-2__item-text">
-            Только для обладателей абонементов будет возможность сесть поближе к
-            сцене
-          </p>
-        </div>
-        <div class="promo-2__item">
-          <h2 class="promo-2__item-title">Автограф-сессия актёров</h2>
-          <p class="promo-2__item-text">
-            После спектаклей у вас будет возможность пообщаться с актёрами и
-            взять у них автограф
-          </p>
-        </div>
-        <button class="promo-2__button">
-          Смотреть
-        </button>
-      </div>
-    </div>
-
-    <footer class="footer">
+    <header class="header">
       <div class="container">
-        <h1 class="header__main-title footer-title">Новости культуры</h1>
-        <nav class="main__nav footer-nav">
-          <a href="#" class="main__nav-item">Новости</a>
-          <a href="#" class="main__nav-item">Обзоры</a>
-          <a href="#" class="main__nav-item">Музыка</a>
-          <a href="#" class="main__nav-item">Архитектура</a>
-          <a href="#" class="main__nav-item">Кино</a>
-          <a href="#" class="main__nav-item">Театр</a>
-          <a href="#" class="main__nav-item">Литература</a>
-          <a href="#" class="main__nav-item">Религия</a>
-          <a href="#" class="main__nav-item">Живопись</a>
-        </nav>
-        <div class="social">
-          <a href="#" class="social__item social-inst">instagramm</a>
-          <a href="#" class="social__item social-fb">facebook</a>
-          <a href="#" class="social__item social-tw">twitter</a>
+        <div class="header__burger">
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
+          <span class="header__burger-line"></span>
         </div>
+        <h1 class="header__title">Новости культуры</h1>
+        <nav class="header__nav nav">
+          <a href="#" class="header__nav-item">Новости</a>
+          <a href="#" class="header__nav-item">Обзоры</a>
+          <a href="#" class="header__nav-item">Музыка</a>
+          <a href="#" class="header__nav-item">Архитектура</a>
+          <a href="#" class="header__nav-item">Кино</a>
+          <a href="#" class="header__nav-item">Театр</a>
+          <a href="#" class="header__nav-item">Литература</a>
+          <a href="#" class="header__nav-item">Религия</a>
+          <a href="#" class="header__nav-item">Живопись</a>
+        </nav>
       </div>
-    </footer>
+    </header>
+    <section class="promo"></section>
+    <script src="js/main.js"></script>
   </body>
 </html>
