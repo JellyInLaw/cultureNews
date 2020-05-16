@@ -30,6 +30,10 @@
   margin-bottom: 139px;
 }
 
+.promo:hover .promo__title {
+  color: #ff7931;
+}
+
 .promo__text {
   line-height: 21px;
   text-align: center;
